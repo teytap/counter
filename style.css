@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.increment-btn {
+  padding: 15px 30px;
+  font-size: 28px;
+  color: white;
+  background-color: grey;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.save-btn {
+  padding: 15px 30px;
+  font-size: 28px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+#count-el {
+  font-size: 72px;
+}
+.container {
+  max-width: 400px;
+  padding: 40px;
+  margin: 0 auto;
+  margin-top: 60px;
+  background: linear-gradient(
+    111.7deg,
+    rgb(251, 198, 6) 2.4%,
+    rgb(224, 82, 95) 28.3%,
+    rgb(194, 78, 154) 46.2%,
+    rgb(32, 173, 190) 79.4%,
+    rgb(22, 158, 95) 100.2%
+  );
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(0, 0, 0) 0%,
+    rgb(64, 64, 64) 90.2%
+  );
+  border-radius: 20px;
+  color: white;
+}
